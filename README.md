@@ -1,5 +1,5 @@
 EV Charging Load Forecaster (with Gen-AI Chatbot)
-⚡ EV Charging Load Forecaster & Gen-AI Operator Chatbot
+
 
 A complete EV Charging Station Load Forecasting System that combines Machine Learning, Time-Series Pattern Analysis, and a ChatGPT-style Gen-AI Chatbot to assist EV charging station operators.
 
@@ -230,3 +230,4 @@ Gen-AI integration (Week 2)
 
 
 Interactive dashboard using Streamlit
+
