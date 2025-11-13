@@ -1,1 +1,6 @@
+streamlit
+pandas
+python-dateutil
+altair
+requests
 
