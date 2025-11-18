@@ -151,11 +151,8 @@ streamlit run app.py
 
 ---
 
-# 🙌 Credits  
-Developed as a 3‑week project:  
-- **Week 1:** Machine Learning  
-- **Week 2:** Gen‑AI Chatbot  
-- **Week 3:** Streamlit Dashboard  
+
+
 
 
 
