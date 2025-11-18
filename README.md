@@ -95,15 +95,17 @@ Handles:
 ### Chatbot  
 ![Chatbot UI](screenshots/chatbot_ui.png)
 
-### Hourly Forecast  
-![Hourly Forecast](screenshots/hourly_forecast.png)
+### Raw Hourly Data  
+![Raw Hourly Data](screenshots/raw_hourly_data.png)
 
-### Charger Analytics  
-![Charger Types](screenshots/charger_types.png)
+### Charging Sessions  
+![Charging Sessions](screenshots/charging_sessions.png)
+
+### Weekly Summary  
+![Weekly Summary](screenshots/weekly_summary.png)
 
 ### Peak Hours  
 ![Peak Hours](screenshots/peak_hours.png)
-
 ---
 
 # 📂 Project Structure
@@ -157,3 +159,4 @@ Developed across **3 Weeks**:
 - Week 1 → Machine Learning  
 - Week 2 → Gen-AI Chatbot  
 - Week 3 → Dashboard UI  
+
