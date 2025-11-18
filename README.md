@@ -81,7 +81,6 @@ Handles:
 - Charging session insights  
 - Rejects unrelated/gibberish queries  
 - Remembers last forecast date  
-- ChatGPT-style UI  
 
 ---
 
@@ -167,4 +166,5 @@ Developed as a 3‑week project:
 - **Week 1:** Machine Learning  
 - **Week 2:** Gen‑AI Chatbot  
 - **Week 3:** Streamlit Dashboard  
+
 
