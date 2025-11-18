@@ -140,9 +140,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open in browser:  
-👉 http://localhost:8501
-
 ---
 
 # 🚀 Future Enhancements
@@ -159,6 +156,7 @@ Developed as a 3‑week project:
 - **Week 1:** Machine Learning  
 - **Week 2:** Gen‑AI Chatbot  
 - **Week 3:** Streamlit Dashboard  
+
 
 
 
