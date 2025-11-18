@@ -1,7 +1,8 @@
+
 # ⚡ EV Charging Load Forecaster (with Gen-AI Chatbot + Dashboard)
 
 An intelligent EV Charging Station Load Forecasting System powered by  
-**Machine Learning**, **Time-Series Pattern Analysis**, and a **ChatGPT-style Gen-AI Chatbot**  
+**Machine Learning**, **Pattern Analysis**, and a **ChatGPT-style Gen-AI Chatbot**  
 with a fully interactive **Streamlit Dashboard**.
 
 <p>
@@ -14,36 +15,46 @@ with a fully interactive **Streamlit Dashboard**.
 
 ---
 
+## 🚀 Live Demo
+
+Experience the full web application here:
+
+👉 **https://ev-charging-load-forecaster.streamlit.app/**  
+
+You can interact with the Gen‑AI chatbot, explore load forecasts, view charging data, and use all dashboard features live.
+
+---
+
 ## 📌 Table of Contents
-- Overview
-- Week 1 — Machine Learning Models
-- Week 2 — Gen-AI Chatbot
-- Week 3 — Streamlit Dashboard
-- Screenshots
-- Project Structure
-- Installation
-- Run the App
-- Future Enhancements
+- Overview  
+- Week 1 — Machine Learning Models  
+- Week 2 — Gen-AI Chatbot  
+- Week 3 — Streamlit Dashboard  
+- Screenshots  
+- Project Structure  
+- Installation  
+- Run the App  
+- Future Enhancements  
 
 ---
 
 # 🚀 Overview
-This project predicts **daily and hourly EV charging load**, identifies **peak usage hours**, analyzes **charging session trends**, and provides an **AI-powered assistant** to help charging-station operators with natural-language queries.
+This project predicts **daily and hourly EV charging load**, identifies **peak usage hours**, analyzes **charging session trends**, and provides an **AI-powered assistant** for natural-language forecasting queries.
 
 ---
 
 # 🧠 Week 1 — Machine Learning Models
 
-### ✔ Data Preprocessing & Feature Engineering  
-Prepared datasets:
-- `train_prepared.csv`
-- `test_prepared.csv`
+### ✔ Data Preprocessing  
+- train_prepared.csv  
+- test_prepared.csv  
 
 ### ✔ Models Implemented  
-- **Prophet** (Time-series model)  
-- **XGBoost Regressor** (Machine learning model)
+- Prophet (Time-series forecasting)  
+- XGBoost Regressor  
 
 ### ✔ Model Comparison  
+
 | Model      | MAE    | RMSE   |
 |------------|--------|--------|
 | Prophet    | 18.52  | 24.87  |
@@ -55,57 +66,54 @@ Prepared datasets:
 
 ### ✔ Natural Language Understanding  
 Handles:
-- “Load tomorrow?”
-- “Load on 15-11-2025?”
-- “Show detailed forecast”
-- “Next Monday?”
-- “Who are you?”
-- “How do you work?”
+- “Load tomorrow?”  
+- “Load on 15‑11‑2025?”  
+- “Show detailed forecast”  
+- “Peak hours this week?”  
+- “Who are you?”  
+- “How do you work?”  
 
 ### ✔ Features  
-- Predict load for any date  
-- Show 24-hour detailed forecast  
+- Predict load for **any date**  
+- Hour‑by‑hour detailed forecast  
 - Peak hour detection  
 - Weekly summary  
-- Charger-type insights  
+- Charging session insights  
 - Rejects unrelated/gibberish queries  
 - Remembers last forecast date  
+- ChatGPT-style UI  
 
 ---
 
 # 🎨 Week 3 — Streamlit Dashboard
 
-### ✔ Chatbot Interface  
-- ChatGPT-style bubble UI  
-- Persistent chat history  
-- Auto-clear input box  
-- Detailed charts in responses  
-
-### ✔ Data Visualizations  
-- Hourly EV load trends  
-- Charging session analytics  
-- Weekly summary  
-- Peak hours chart  
+Includes:
+- Chatbot UI  
+- Raw hourly EV load viewer  
+- Charging session table  
+- Weekly summary visualization  
+- Peak hour visualization  
 
 ---
 
 # 🖼️ Screenshots  
-(Add real images into `/screenshots` folder and replace these.)
+(Add real screenshots in the `/screenshots` directory)
 
-### Chatbot  
+### 💬 Chatbot  
 ![Chatbot UI](screenshots/chatbot_ui.png)
 
-### Raw Hourly Data  
+### 📊 Raw Hourly Data  
 ![Raw Hourly Data](screenshots/raw_hourly_data.png)
 
-### Charging Sessions  
+### 🚗 Charging Sessions  
 ![Charging Sessions](screenshots/charging_sessions.png)
 
-### Weekly Summary  
+### 📈 Weekly Summary  
 ![Weekly Summary](screenshots/weekly_summary.png)
 
-### Peak Hours  
+### 🔥 Peak Hours  
 ![Peak Hours](screenshots/peak_hours.png)
+
 ---
 
 # 📂 Project Structure
@@ -140,23 +148,22 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open:  
+Open in browser:  
 👉 http://localhost:8501
 
 ---
 
-# 🚀 Future Enhancements  
+# 🚀 Future Enhancements
 - PDF report generator  
-- EV demand simulation  
-- Geo-based station map  
-- Theme toggle  
-- Cloud deployment  
+- What‑if EV demand simulation  
+- Geo‑map visualization  
+- Theme toggle (Light/Dark)  
+- Live cloud deployment autosync  
 
 ---
 
 # 🙌 Credits  
-Developed across **3 Weeks**:  
-- Week 1 → Machine Learning  
-- Week 2 → Gen-AI Chatbot  
-- Week 3 → Dashboard UI  
-
+Developed as a 3‑week project:  
+- **Week 1:** Machine Learning  
+- **Week 2:** Gen‑AI Chatbot  
+- **Week 3:** Streamlit Dashboard  
