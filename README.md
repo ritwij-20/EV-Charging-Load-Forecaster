@@ -5,13 +5,7 @@ An intelligent EV Charging Station Load Forecasting System powered by
 **Machine Learning**, **Pattern Analysis**, and a **Gen-AI Chatbot**  
 with a fully interactive **Streamlit Dashboard**.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python" />
-  <img src="https://img.shields.io/badge/Streamlit-Framework-red?logo=streamlit" />
-  <img src="https://img.shields.io/badge/Chatbot-LLM-green?logo=openai" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
-</p>
+
 
 ---
 
@@ -166,5 +160,6 @@ Developed as a 3‑week project:
 - **Week 1:** Machine Learning  
 - **Week 2:** Gen‑AI Chatbot  
 - **Week 3:** Streamlit Dashboard  
+
 
 
